@@ -19,6 +19,8 @@
 	.ytp-ce-element,
 	.ytp-player-content,
 	#top-row + ytd-expander ytd-metadata-row-container-renderer,
+	#page-manager ytd-browse,
+	#home-page-skeleton,
 	[id$="author-thumbnail"],
 	[id$="author-text"],
 	[id$="like-button"],
