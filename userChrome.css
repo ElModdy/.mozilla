@@ -1,0 +1,12 @@
+#TabsToolbar {
+  visibility: collapse;
+}
+
+#sidebar-header {
+  visibility: collapse !important;
+}
+
+#titlebar {
+  visibility: collapse;
+}
+

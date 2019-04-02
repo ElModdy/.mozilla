@@ -1,0 +1,42 @@
+/* 
+ * userContent.css
+ *
+ * path: ~/.mozilla/firefox/<profilo>/chrome/userContent.css
+ *
+ */
+
+@-moz-document domain("youtube.com")
+{
+	#count,
+	#related,
+	#top-row,
+	#simple-box,
+	#guide,
+	#masthead-container,
+	#masthead,
+	#drop-shadow,
+	#info,
+	.ytp-ce-element,
+	.ytp-player-content,
+	#top-row + ytd-expander ytd-metadata-row-container-renderer,
+	[id$="author-thumbnail"],
+	[id$="author-text"],
+	[id$="like-button"],
+	[id$="dislike-button"],
+	[id$="creator-heart"],
+	[id$="reply-button-end"],
+	[id$="header-badge"],
+	[id$="author-comment-badge"],
+	[id$="action-menu"]
+	{
+		display: none !important;
+	}
+
+	.ytd-video-secondary-info-renderer,
+	#page-manager,
+	#player
+	{
+		margin:0 !important;
+	}
+
+}
